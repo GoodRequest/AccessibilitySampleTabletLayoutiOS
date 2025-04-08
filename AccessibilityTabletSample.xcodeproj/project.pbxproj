@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5D72E3942DA45B8A0099FCE4 /* Exceptions for "AccessibilityTabletSample" folder in "AccessibilityTabletSample" target */ = {
+		5D72E3CF2DA45D510099FCE4 /* Exceptions for "AccessibilityTabletSample" folder in "AccessibilityTabletSample" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,22 +40,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5D72E3712DA45B880099FCE4 /* AccessibilityTabletSample */ = {
+		5D72E3C82DA45D510099FCE4 /* AccessibilityTabletSample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5D72E3942DA45B8A0099FCE4 /* Exceptions for "AccessibilityTabletSample" folder in "AccessibilityTabletSample" target */,
+				5D72E3CF2DA45D510099FCE4 /* Exceptions for "AccessibilityTabletSample" folder in "AccessibilityTabletSample" target */,
 			);
 			path = AccessibilityTabletSample;
-			sourceTree = "<group>";
-		};
-		5D72E3852DA45B8A0099FCE4 /* AccessibilityTabletSampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AccessibilityTabletSampleTests;
-			sourceTree = "<group>";
-		};
-		5D72E38F2DA45B8A0099FCE4 /* AccessibilityTabletSampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AccessibilityTabletSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +78,7 @@
 		5D72E3662DA45B880099FCE4 = {
 			isa = PBXGroup;
 			children = (
-				5D72E3712DA45B880099FCE4 /* AccessibilityTabletSample */,
-				5D72E3852DA45B8A0099FCE4 /* AccessibilityTabletSampleTests */,
-				5D72E38F2DA45B8A0099FCE4 /* AccessibilityTabletSampleUITests */,
+				5D72E3C82DA45D510099FCE4 /* AccessibilityTabletSample */,
 				5D72E3702DA45B880099FCE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +109,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5D72E3712DA45B880099FCE4 /* AccessibilityTabletSample */,
+				5D72E3C82DA45D510099FCE4 /* AccessibilityTabletSample */,
 			);
 			name = AccessibilityTabletSample;
 			packageProductDependencies = (
@@ -143,9 +131,6 @@
 			dependencies = (
 				5D72E3842DA45B8A0099FCE4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5D72E3852DA45B8A0099FCE4 /* AccessibilityTabletSampleTests */,
-			);
 			name = AccessibilityTabletSampleTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				5D72E38E2DA45B8A0099FCE4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5D72E38F2DA45B8A0099FCE4 /* AccessibilityTabletSampleUITests */,
 			);
 			name = AccessibilityTabletSampleUITests;
 			packageProductDependencies = (
